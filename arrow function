@@ -1,0 +1,19 @@
+// import React from 'react'
+
+const App = () => {
+  return (
+    <>
+    <Name/>
+     <h1>hi i am ray</h1>
+    </>
+  )
+}
+const Name = () => {
+  return (
+    <>
+     <h1>hi how are you</h1>
+    </>
+  )
+}
+
+export default App;
