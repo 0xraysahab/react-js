@@ -1,0 +1,17 @@
+                   //in source file
+export default MyHeading;
+export {First,Second,Third};
+
+                      //in main file
+import MyHeading, { First, Second, Third } from '';
+                      
+const App = () => {
+  return (
+    <div>
+      <MyHeading/>
+      <First/>
+      <Second/>
+      <Third/>
+    </div>
+  )
+}
