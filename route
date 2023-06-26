@@ -1,0 +1,30 @@
+              //in app.js
+import {BrowserRouter as Router ,Routes ,Route} from "react-router-dom";
+
+
+return (
+    
+    <Router>
+       <Header/>
+      <Routes>
+       
+        <Route path="/" element= {< ../>}/>
+        <Route path="/About" element= {<../>}/>
+        <Route path="/Contact" element= {<../>}/>
+      </Routes>
+    </Router>
+)
+
+          // on ancher page
+import { Link } from 'react-router-dom';
+
+return (
+    <>
+    <nav >
+      <Link to='/'>home</Link>
+      <Link to='/About'>about</Link>
+      <Link to='/Contact'>contact</Link>
+      
+    </nav>
+    </>
+  )
