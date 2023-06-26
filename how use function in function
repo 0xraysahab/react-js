@@ -1,0 +1,16 @@
+const My =()=> {
+  return(
+    <div>
+<h1>hi how are you</h1>
+    </div>
+  )
+}
+const App = () => {
+  return (
+    
+    <div>
+      <My />                                    //name of upper function
+      <h1>welcome in pdage{a} </h1>
+    </div>
+  )
+}
